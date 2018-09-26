@@ -201,7 +201,7 @@ p {
     
     padding: 50px 0 80px;
     text-align: center;
-    background-color: #3399ff;
+    background-color: #A2B5CD;
 }
 
 
@@ -223,6 +223,47 @@ height: 250px;
 @media(max-width:768px) {
     
     .pricing {
+        
+        padding: 30px;
+    }
+    
+    img {
+        
+        width: 80%;
+        margin-left: 25px;
+		border: 2px solid gray;
+	border radius:5px;
+    }
+}
+
+/*Pega*/
+
+.Pega {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #3399ff;
+}
+
+
+ img{
+height: 250px;
+    width: 250px;
+    margin-top: 80px;
+	border-radius: 5%;
+	
+}
+ img:hover
+{
+	opacity: 0.7;
+}
+.Pega h4{
+	
+	color: white;
+}
+@media(max-width:768px) {
+    
+    .Pega {
         
         padding: 30px;
     }
