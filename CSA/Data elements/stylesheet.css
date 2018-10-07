@@ -1,0 +1,186 @@
+body
+
+{
+background-color: skyblue;
+margin:0px;
+font-size: 14px;
+font-family: verdana, Georgia;
+
+}
+
+#header
+{
+background-color: lightgreen;
+border-radius:5px;
+height: 90px;
+margin: 5px;
+
+
+}
+
+#navbar ul
+{
+background-color: black;
+border-radius:5px;
+margin: 10px;
+text-align: center;
+padding: 5px;
+line-style-type:none;
+
+}
+
+#navbar ul li
+{
+display:inline;
+
+
+}
+#navbar ul li a
+{
+color:white;
+background-color: black;
+padding: .2em 2em;
+text-decoration: none;
+font-style: Verdana;
+border-radius: 5px;
+}
+
+#navbar ul li a:hover
+{
+color: black;
+background-color: white;
+
+}
+#footer
+{
+background-color: lightgreen;
+border-radius:5px;
+height: 60px;
+margin: 5px;
+clear: both;
+text-align: center;
+padding: 15px;
+font size: 90%;
+}
+#main
+
+{
+background-color: gray;
+margin-right:300px;
+margin-left:30px;
+margin-top:10px;
+margin-bottom: 10Spx;
+padding: 20px;
+border-radius: 5px;
+}
+h1,h3 {
+color: red;
+}
+
+.sidebar{
+background-color: gray;
+padding: 10px;
+border-radius: 5px;
+float:right;
+margin-right:10px;
+margin-left:10px;
+margin-top:10px;
+margin-bottom: 10Spx;
+width: 260px;
+clear:right;
+}
+
+.Author{
+border-radius: 5px;
+float:right;
+margin-right:5px;
+margin-left:5px;
+margin-top:5px;
+margin-bottom: 5Spx;
+width: 260px;
+clear: right;
+opacity: 1.0;
+transition: opacity 1s ease-in-out; 
+}
+.Author:hover
+{
+opacity: 0.4;
+}
+
+h3
+
+{
+color: white;
+text-align: center;
+font-family:Century Gothic;
+position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+
+
+
+#footer ul
+{
+
+border-radius:5px;
+margin: 10px;
+text-align: center;
+padding: 5px;
+line-style-type:none;
+
+}
+
+#footer ul li
+{
+display:inline;
+
+
+}
+#footer ul li a
+{
+text-decoration:none;
+color:white;
+background-color: none;
+padding: .2em 2em;
+text-decoration: none;
+font-style: Verdana;
+border-radius: 5px;
+}
+
+#footer ul li a:hover
+{
+color: black;
+background-color: white;
+
+}
+@media (max-width:600px)
+
+{
+.sidebar{
+display:none;
+
+
+
+}
+
+@media (max-width:600px)
+
+{
+.main{
+background-color: yellow;
+
+
+}
+#img {
+    
+    height: 350px;
+    width: 450px;
+    margin: 70px 0 0 40px;
+	border-radius: 50%;
+}
+ 

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<script src= "jscode.js"></script>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"> 
+<html>
+ 
+<head>
+<title>  </title>
+
+</head>
+ 
+<body>
+
+<div id="header">
+<h3> CSA Work</h3>
+</div>
+<div id="navbar">
+
+<ul>
+<li> <a href= ""> Home </a></li>
+<li> <a href= ""> News </a></li>
+<li> <a href= ""> Music </a></li>
+<li> <a href= ""> Videos</a></li>
+</ul>
+
+</div>
+
+<div class ="sidebar">
+
+<img class="Author" src=CSA1.png></br></br>
+CSA Course.
+</div>
+
+
+<div class = "sidebar">
+<h3>
+List of topics.
+</h3>
+
+<a href = "index.html"><p>Case Design</p></a>
+<a href = "indexDataelements.html"><p>Data elements in pega</p></a>
+<a href = "indexDataTransform.html"><p>Data Transform</p></a>
+<a href = "indexDeclareExpressions.html"><p>Declare Expressions</p></a>
+<a href = "indexDataPropegation.html"><p>Data Propegation</p></a>
+<a href = "indexworkparty.html"><p>work party</p></a>
+<a href = "indexSLA.html"><p>SLA</p></a>
+<a href = "indexRoutinganassignment.html"><p>Routing an assignment</p></a>
+<a href = "indexCorrespondence.html"><p>Correspondence</p></a>
+<a href = "indexWhenRule.html"><p>When Rule</p></a>
+<a href = "indexDecisionTable.html"><p>Decision Table</p></a>
+<a href = "indexDesigningUIForms.html"><p>Designing UI Forms</p></a>
+<a href = "indexDynamicUI.html"><p>Dynamic UI</p></a>
+<a href = "indexValidations.html"><p>Validations</p></a>
+<a href = "indexReportdefinitions.html"><p>Report definitions</p></a>
+<a href = "indexManagingReferenceData.html"><p>Managing Reference Data</p></a>
+</div>
+
+
+
+
+<div id="main">
+<h1>
+Scenario
+
+</h1>
+
+<p>To avoid processing delays for onboarding and benefits enrollment cases, the human resources (HR) department asks you to ensure that users provide accurate data when processing an onboarding request. To avoid invalid user entries, HR requests that you configure the fields so that users must enter data in the fields. You must also replace some of the text fields in the application with lists. Finally, HR wants to ensure that the start date for a new hire is entered correctly as a future date.
+</p>
+<h1>
+Assaignment.
+</h1>
+<p>
+Ensure that users enter values for the following properties by requiring the listed fields:<br>
+
+On the Collect Employee Info form — First name, Last name, Start date, Manager, and Email<br>
+On the Identify Home Office form — Office<br>
+Replace the text field on the Identify Home Office form with a drop-down list of office locations.<br> To do this:<br>
+
+Change the control for the Office property on the form to Dropdown.<br>
+Add a placeholder prompt for the list that tells the user to select an office.<br>
+Source the list from data on the clipboard by referencing the data page D_OfficeList.<br>
+Validate the start date for a new employee to ensure that users can only enter a future date. To do this:<br>
+
+Create a validate rule to apply the edit validate rule IsFutureDate to the employee's start date (.StartDate).<br>
+Configure the Collect Employee Info flow action to call the validate rule when the user submits the form.<br>
+</p>
+
+<h1>Validations<h1>
+<p>
+Following is the Data Validations for HRApps.
+</p>
+
+<video width="800" height="500" controls>
+	<source src="Videos/Validation.mp4" type="video/mp4">
+</video>
+</div>
+ &nbsp&nbsp
+ 
+<div id="footer">
+<ul>
+
+
+<li> <a href= ""> Help </a></li>
+<li> <a href= ""> Terms & conditions </a></li>
+<li> <a href= ""> Privacy policy </a></li>
+<li> <a href= ""> Follow us</a></li>
+</ul>
+
+&copy; All Rights are reserved.
+</div>
+
+
+</body>
+ 
+</html>

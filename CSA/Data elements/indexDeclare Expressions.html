@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<script src= "jscode.js"></script>
+<link type="text/css" rel="stylesheet" href="stylesheet.css"> 
+<html>
+ 
+<head>
+<title>  </title>
+
+</head>
+ 
+<body>
+
+<div id="header">
+<h3> CSA Work</h3>
+</div>
+<div id="navbar">
+
+<ul>
+<li> <a href= ""> Home </a></li>
+<li> <a href= ""> News </a></li>
+<li> <a href= ""> Music </a></li>
+<li> <a href= ""> Videos</a></li>
+</ul>
+
+</div>
+
+<div class ="sidebar">
+
+<img class="Author" src=CSA1.png></br></br>
+CSA Course.
+</div>
+
+
+<div class = "sidebar">
+<h3>
+List of topics.
+</h3>
+
+<a href = "index.html"><p>Case Design</p></a>
+<a href = "indexDataelements.html"><p>Data elements in pega</p></a>
+<a href = "indexDataTransform.html"><p>Data Transform</p></a>
+<a href = "indexDeclareExpressions.html"><p>Declare Expressions</p></a>
+<a href = "indexDataPropegation.html"><p>Data Propegation</p></a>
+<a href = "indexworkparty.html"><p>work party</p></a>
+<a href = "indexSLA.html"><p>SLA</p></a>
+<a href = "indexRoutinganassignment.html"><p>Routing an assignment</p></a>
+<a href = "indexCorrespondence.html"><p>Correspondence</p></a>
+<a href = "indexWhenRule.html"><p>When Rule</p></a>
+<a href = "indexDecisionTable.html"><p>Decision Table</p></a>
+<a href = "indexDesigningUIForms.html"><p>Designing UI Forms</p></a>
+<a href = "indexDynamicUI.html"><p>Dynamic UI</p></a>
+<a href = "indexValidations.html"><p>Validations</p></a>
+<a href = "indexReportdefinitions.html"><p>Report definitions</p></a>
+<a href = "indexManagingReferenceData.html"><p>Managing Reference Data</p></a>
+</div>
+
+
+
+
+<div id="main">
+<h1>
+Scenario
+
+</h1>
+
+<p>During the benefits enrollment process, employees select a medical insurance plan, dental insurance plan, and vision insurance plan offered by the company. To make affordable choices, employees need to know the combined cost of their selections. To help employees select affordable options, HR wants benefits enrollment cases to calculate the total of insurance and display the total during the coverage selection process.
+
+</p>
+<h1>
+Assaignment.
+</h1>
+<p>
+Add a total cost to each of the coverage selection forms and the Review Selections form.<br> 
+To do this:<br>
+
+Create a property named "Total benefit cost" to store decimal data.<br>
+Create a page property for each benefit type to record the employee cost of each insurance plan.<br>
+MedicalPlan (TGB-HRApps-Data-HRPlan)<br>
+DentalPlan (TGB-HRApps-Data-HRPlan)<br>
+VisionPlan (TGB-HRApps-Data-HRPlan)<br>
+The data class TGB-HRApps-Data-HRPlan has already been created by another system architect. This data class contains properties to describe insurance plans, including a property to store the cost paid by the employee for coverage (.EmployeeCost).<br>
+
+Create a declare expression for the Total benefit cost property to calculate the total benefit cost as the sum of the employee cost (.EmployeeCost) for each plan.<br>
+Add the Total benefit cost property to the following four assignments in the Benefits Enrollment case life cycle.<br>
+Select Medical Coverage<br>
+Select Dental Coverage<br>
+Select Vision Coverage<br>
+Review Selections<br>
+</p>
+
+<h1>Declare Expressions<h1>
+<p>
+Following is the Declare Expressions video for HRApps.
+</p>
+
+<video width="800" height="500" controls>
+	<source src="Videos/SETTING PROPERTY VALUES DECLARATIVELY.mp4" type="video/mp4">
+</video>
+</div>
+ &nbsp&nbsp
+ 
+<div id="footer">
+<ul>
+
+
+<li> <a href= ""> Help </a></li>
+<li> <a href= ""> Terms & conditions </a></li>
+<li> <a href= ""> Privacy policy </a></li>
+<li> <a href= ""> Follow us</a></li>
+</ul>
+
+&copy; All Rights are reserved.
+</div>
+
+
+</body>
+ 
+</html>
